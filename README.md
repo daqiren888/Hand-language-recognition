@@ -1,7 +1,7 @@
-# W251-Final-Project
-Instructors: Ryan DeJana, Prabhakar Attaluri
+handsign-recognition 
 
-Author: Johnathan Mah, Rohit Bakshi, Da Qi Ren, Sitao Chen
+This work was firstly done at UC Berkeley class, I improved it after the course finished. 
+Instructors: Ryan DeJana, Prabhakar Attaluri
 
 ## Credit
 A large portion of this repository uses the jetson-inference repository by NVIDIA -
