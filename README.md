@@ -20,6 +20,14 @@ pytorch model to an onnx model to run TensorRT.
 
 <img src="./images/P1.png" width="500"/>
 
+<img src="./images/P2.png" width="500"/>
+
+<img src="./images/P3.png" width="500"/>
+
+<img src="./images/P4.png" width="500"/>
+
+<img src="./images/P5.png" width="500"/>
+
 
 
 
