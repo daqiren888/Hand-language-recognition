@@ -18,6 +18,34 @@ pytorch model to an onnx model to run TensorRT.
 /python/training/detection/ssd
 ```
 
+<img src="./images/P1.png" width="500"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Prerequisites
 Before attempting to run the application end to end please be aware of the
 following.
