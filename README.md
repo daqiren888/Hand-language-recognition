@@ -56,6 +56,8 @@ environment issues.
 
 <img src="./images/P2.png" width="500"/>
 
+## The validation results were as follows:
+
 <img src="./images/P3.png" width="500"/>
 
 <img src="./images/P4.png" width="500"/>
