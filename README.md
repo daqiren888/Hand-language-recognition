@@ -17,6 +17,40 @@ pytorch model to an onnx model to run TensorRT.
 ```
 /python/training/detection/ssd
 ```
+## challenges while working on this project.
+
+The RoboFlow dataset applied on YOLOv5 had high accuracy on the test dataset, which was
+promising at first, but when I anecdotally tested on it the live video feed, it didn’t do
+particularly Ill. I believe that the model could not deal with the background noise and spatial
+variation in gestures that the test dataset did not measure.
+The models I trained also seem to be overfit to our training data. Skin color, depth of the
+gesture, background noise, choice of background, and spatial orientation of the gestures are all
+important factors in determining how Ill the model does in accurately predicting the gesture
+classification. The only solution for this is to increase the amount of training data and having
+diverse data with many types of hands, backgrounds, depth and orientation. Accumulating and
+annotating data is a tedious task, but it is a definite way to generalize the model rather than
+using artificial methods to boost the accuracy.
+I also faced a multitude of technical challenges on this project as Ill.
+The Nvidia Jetson deep learning deployment platform scales Ill to perform on the Jetson, but
+when training or inferring on non-Jetson devices such as EC2 cloud instances or local Ubuntu
+machines with discrete graphics cards, I would face issues with running the inference
+because of incompatibilities with code libraries. I specifically faced a variety of segmentation
+fault issues that Ire sometimes extremely hard to debug to the point where I had to resort to
+alternate ideas to get the code to run.
+The platform did not work as expected with the annotations from Roboflow compared to the
+much more efforted steps of the Nvidia capture tool. This decreased the dataset size just due to
+potential time in setting up the dataset with proper annotations. I also had issues where the
+deployed models on the Jetson would be trained as expected but there would be no reaction of
+the Jetson for any inference or detection leading us to be confused if the model was at fault or
+external issues regarding compatibility or otherwise.
+Furthermore, when I tried to do validation and test results on an Amazon EC2 instance or
+local machine with a discrete GPU (for speed) I faced compatibility issues with how the
+platform was Jetson specific and not a CUDA anywhere platform that ran on CUDA hardware
+but agnostic of the actual device. The code seemed to be dependent to run on a Jetson only
+and was very difficult to migrate to a non-Jetson host machine for mainly library and
+environment issues.
+
+
 
 <img src="./images/P1.png" width="500"/>
 
