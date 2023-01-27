@@ -17,6 +17,10 @@ pytorch model to an onnx model to run TensorRT.
 ```
 /python/training/detection/ssd
 ```
+<img src="./images/04-28-signlanguage-01.jpg" width="500"/>
+
+
+
 ## challenges while working on this project.
 
 The RoboFlow dataset applied on YOLOv5 had high accuracy on the test dataset, which was
