@@ -60,7 +60,17 @@ environment issues.
 
 <img src="./images/P4.png" width="500"/>
 
-<img src="./images/P5.png" width="500"/>
+## Evaluation Metrics
+The model is evaluated in two ways: 1) anecdotal testing of the model via a webcam and looking
+at the results based on given gestures and 2) feeding in test images to the model and having it
+classify them.
+Anecdotal evidence is straightforward. It is manual testing of each image by each person in
+various gestures.
+The test image classification is measured by the loss over epochs, which we used tensorboard
+to display (shown below).
+
+
+<img src="./images/P5.png" width="800"/>
 
 ![episode0](./images/R.gif)
 
