@@ -1,4 +1,4 @@
-handsign-recognition 
+# Hand Sign Recognition 
 
 This work was firstly done at UC Berkeley class, I improved it after the course finished. 
 Instructors: Ryan DeJana, Prabhakar Attaluri
