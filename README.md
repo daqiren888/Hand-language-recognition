@@ -58,7 +58,9 @@ environment issues.
 
 <img src="./images/P1.png" width="500"/>
 
-<img src="./images/P2.png" width="500"/>
+## Platform from Edge to Cloud
+
+<img src="./images/P2.png" width="800"/>
 
 ## The validation results were as follows:
 
