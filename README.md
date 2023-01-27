@@ -72,6 +72,16 @@ to display (shown below).
 
 <img src="./images/P5.png" width="800"/>
 
+## Sample Test Images 
+The results from the test images between YOLO_v5 and MobileNet_v2 were extremely similar.
+However, the MobileNet_v2 model was more robust. Different backgrounds and depth of the
+images were less flaky compared to the YOLO_v5 model. This makes sense because
+MobileNet has rich feature representations, but lacks speed. As such, the model is much more
+confident in its classifications, this was something we deemed as important due to the accuracy
+needed for language translations. MIscommunication would be a very bad thing to allow
+through.
+
+
 ![episode0](./images/R.gif)
 
 
