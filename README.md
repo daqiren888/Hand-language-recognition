@@ -92,7 +92,8 @@ to display (shown below).
 
 
 <img src="./images/P5.png" width="800"/>
- 
+
+# RUN IT
 
 ## Prerequisites
 Before attempting to run the application end to end please be aware of the
