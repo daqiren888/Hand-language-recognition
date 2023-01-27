@@ -1,6 +1,6 @@
 # Hand Sign Recognition 
 
-This work was firstly done at my MIDS at UC Berkeley class, I improved it after the course finished.
+This work was done at my MIDS at UC Berkeley class.
 
 Instructors: Ryan DeJana, Prabhakar Attaluri
 
