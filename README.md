@@ -28,10 +28,7 @@ pytorch model to an onnx model to run TensorRT.
 
 <img src="./images/P5.png" width="500"/>
 
-
-
-
-<video src='./images/R.mp4' width=500/>
+![episode0](./images/R.gif)
 
 
 
